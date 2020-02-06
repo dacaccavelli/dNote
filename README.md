@@ -4,25 +4,20 @@ The goal of this project was to give myself a quicker way to take notes when rea
 
 ## Getting Started
 
-Clone this repo into your Python3 environment and run the "Face_Eye_Detector.py" file
+Clone this repo into your Python3 environment. I am still working on the proper way to format the batch file to work after cloning.
 
 ### Prerequisites
 
 You will need the following modules:
 
 ```
-numpy
-cv2
-scipy.io
-inception_v3 from keras.applications
-random
+os
 ```
 ## Usage
 
-Once the program is running, it should automatically begin detecting both faces and eyes.
-There is additional "fun" functionality to apply hats to the heads of the detected faces by pressing 'h'.
-
-The program can be closed by pressing 'q'.
+dNote '' : open cmd line for input
+Following the prompt, you can either select a file you have already used, or create a new file.
+The program will then prompt you for the new note to add and append it to the text file for later review.
 
 ## Authors
 
